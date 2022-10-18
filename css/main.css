@@ -17,9 +17,25 @@ img {
   margin: 0 auto;
 }
 
+.content-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .content-title {
   font-family: "Arial", sans-serif;
   font-size: 24px;
+}
+
+.content-span {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 2.57143px;
+  color: #7d7d7d;
 }
 
 .card-list {
@@ -69,7 +85,7 @@ img {
 
 .card-2 {
   grid-column: 2/3;
-  grid-row: 1/4;
+  grid-row: 1/6;
 }
 
 .card-3 {
@@ -84,17 +100,17 @@ img {
 
 .card-5 {
   grid-column: 1/2;
-  grid-row: 4/8;
+  grid-row: 4/9;
 }
 
 .card-6 {
   grid-column: 2/3;
-  grid-row: 6/8;
+  grid-row: 6/9;
 }
 
 .card-7 {
   grid-column: 3/9;
-  grid-row: 5/9;
+  grid-row: 5/11;
 }
 
 .card-8 {
@@ -104,7 +120,7 @@ img {
 
 .card-9 {
   grid-column: 1/2;
-  grid-row: 8/10;
+  grid-row: 8/13;
 }
 
 .card-10 {
@@ -119,7 +135,7 @@ img {
 
 .card-12 {
   grid-column: 4/5;
-  grid-row: 7/14;
+  grid-row: 7/12;
 }
 
 .card-13 {
@@ -127,8 +143,12 @@ img {
   grid-row: 13/16;
 }
 
-
 .card-14 {
   grid-column: 2/3;
-  grid-row: 10/13;
+  grid-row: 13/16;
+}
+
+.card-15 {
+  grid-column: 4/5;
+  grid-row: 13/16;
 }
